@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CSS Practice (css-bfwh): border, float, width, height</title>
+    <style>
+      * {
+          font-family: Arial, Helvetica, sans-serif;
+      }
+      hr {
+        margin-top: 50px;
+      }
+      #draggable,
+      #droptarget {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: bold;
+      }
+      /* START WRITING YOUR CSS CODE HERE: ... */
+      #droptarget {
+        background: gray;
+      }
+      #droptarget.dragover {
+        background: orange;
+      }
+      #draggable {
+        background: lightgray;
+      }
+    </style>
+    <link rel="stylesheet" href="./src/css-bfwh.css">
+  </head>
+  <body>
+
+    <!-- NO NEED TO CHANGE ANYTHING IN THE HTML :) -->
+    <!-- 
+    <h1>Drag and Drop CSS Challenge</h1>
+    <div id="droptarget">
+      Drop File
+    </div>
+    <div id="draggable" draggable="true">
+      Drag me!
+    </div>
+    <script src="./src/css-bfwh.js"></script>
+    -->
+
+    <iframe src="presence.html" style="width:100vw; height:100vh;" frameborder="0"></iframe>  
+  </body>
+</html>
